@@ -24,5 +24,8 @@
     "test:readme": "defence -i javascript README.md | replace-require-self | node",
     "test:suite": "node test.js",
     "test": "npm run test:readme && npm run test:suite"
+  },
+  "dependencies": {
+    "markdown-escapes": "^1.0.4"
   }
 }
